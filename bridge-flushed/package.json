@@ -1,0 +1,8 @@
+{
+  "name": "tabris-js-performance",
+  "version": "1.0.0",
+  "main": "app.js",
+  "dependencies": {
+    "tabris": "../../tabris-js/build/tabris"
+  }
+}
