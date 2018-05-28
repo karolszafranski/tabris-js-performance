@@ -1,15 +1,14 @@
 const {Button, TextView, ui} = require('tabris');
 
-const k = 1000, l = 10;
+const k = 10000, l = 10;
 const MARGIN = 20;
 
 function test() {
     const button = new Button();
     var startDate = new Date();
     for (let index = 0; index < k; index++) {
-        button.text = 'abc';
+        button._setText('abc');
     }
-    tabris.trigger('flush');
     var duration = new Date() - startDate;
     return duration;
 }
